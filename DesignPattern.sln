@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29911.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxy", "Proxy\Proxy.csproj", "{534078F9-A36A-4A79-9866-6AA8E001E62B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proxy", "Proxy\Proxy.csproj", "{534078F9-A36A-4A79-9866-6AA8E001E62B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "Adapter\Adapter.csproj", "{7CF0DFBE-E866-4204-9960-109E361F4F95}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter", "Adapter\Adapter.csproj", "{7CF0DFBE-E866-4204-9960-109E361F4F95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator", "Mediator\Mediator.csproj", "{7E927ADF-1390-43BD-833B-AD9D0E700702}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{7CF0DFBE-E866-4204-9960-109E361F4F95}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7CF0DFBE-E866-4204-9960-109E361F4F95}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7CF0DFBE-E866-4204-9960-109E361F4F95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E927ADF-1390-43BD-833B-AD9D0E700702}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E927ADF-1390-43BD-833B-AD9D0E700702}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E927ADF-1390-43BD-833B-AD9D0E700702}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E927ADF-1390-43BD-833B-AD9D0E700702}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
